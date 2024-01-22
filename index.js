@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 // Connect to MongoDB (replace connection string and database name)
 mongoose.connect(
-	'mongodb+srv://meelenych:Trsd1583-@e-commerce-store.jmz1jj6.mongodb.net/?retryWrites=true&w=majority',
+	'mongodb+srv://meelenych:Trsd1583-@e-commerce-store.jmz1jj6.mongodb.net/',
 	{
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
