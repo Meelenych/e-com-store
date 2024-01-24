@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Connect to MongoDB using the environment variable set on Heroku
 mongoose.connect(process.env.MONGODB_URI);
